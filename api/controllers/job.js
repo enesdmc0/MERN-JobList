@@ -10,7 +10,7 @@ export const postJob = async (req, res) => {
         const savedJob = await newJob.save();
         res.status(200).json(savedJob);
     }catch (err){
-        console.log(err);
+        console.log(err)
     }
 }
 
