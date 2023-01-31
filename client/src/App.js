@@ -3,7 +3,7 @@ import Select from 'react-select';
 import { MdDelete } from 'react-icons/md';
 import {FaEdit} from 'react-icons/fa';
 import {GiCancel} from 'react-icons/gi';
-import axios from 'axios'git push -
+import axios from 'axios'
 function App() {
     const [data, setData] = useState([]);
     const options = [
